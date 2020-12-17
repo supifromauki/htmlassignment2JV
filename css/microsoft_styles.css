@@ -1,6 +1,8 @@
 body{
     
-    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
 }
 
 
@@ -14,7 +16,11 @@ body{
 .logostyle{
     width: 108px;
     margin-top: -7px;
+    text-align: center;
 }
+
+
+
   /* nav bar */
 
 /* From slider */
