@@ -1,21 +1,43 @@
+  
+
 body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
-    box-sizing: border-box;
+    
 }
+
+.corona-alert
+{
+    background-color:rgb(168, 0, 0) ;
+    color: white;
+    padding: 12px 36px;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    display: block;
+
+}
+
 
 
 /* FROM Nav bar  */
 .bodystyle{
     width: 90%;
     margin: 0 auto;
+   
     
 
 }
 .logostyle{
     width: 108px;
     margin-top: -7px;
+    text-align: center;
 }
+
+
+
   /* nav bar */
+  
 
 /* From slider */
 .carousel-inner img {
@@ -36,6 +58,7 @@ body{
     
    text-align: left;
    color: black; 
+  
   }
   .carousel-caption p{
     
@@ -44,7 +67,7 @@ body{
    }
    .carousel-caption button
    {    
-       margin-top: 150px;
+      
        padding: 10px 20px;
        color: white;
        background-color:rgb(168, 0, 0);
@@ -55,6 +78,47 @@ body{
 
    }
           /* Slider ends */
+          
+
+        /*********** Card section***************** */
+          .sec-4
+          {
+              margin: 40px 0;
+          }
+          .card
+          {
+              border: none !important;
+          }
+          .card-body
+          {
+              padding: 5px 0 !important;
+          }
+           /*********** Card section Ends***************** */
+          /************ Microsoft OneDrive***************** */
+
+         .msstyle{
+             width: 100%;
+             height: 450px;
+             background-image: url("../images/woman.png");
+             background-repeat: no-repeat;
+             background-size: 100% 100%;
+             margin: 20px 0 50px 0;
+             display: flex;
+             flex-direction: column;
+             justify-content: center;
+             align-items: flex-start;
+             padding: 70px;
+         }
+         .pic-button{
+            padding: 10px 20px;
+            color: white;
+            background-color:rgb(168, 0, 0);
+            border: none;
+            font-size: 15px;
+            left: 0 ;
+
+         }
+         /************ Microsoft OneDrive***************** */
 
           /* FOOTER */
  .FOOTER
