@@ -4,9 +4,34 @@
 
 
 
+/**** Microsoft OneDrive** */
 
+.msstyle{
+    width: 100%;
+    height:182px;
+    background-image: url("../images/woman.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* margin: 20px 0 50px 0; */
+    display: flex; 
+    flex-direction: column;
+    /*justify-content: center;*/
+    align-items: flex-start;
+    padding: 70px;
+}
+.pic-button{
+   padding: 10px 20px;
+   color: white;
+   background-color:rgb(168, 0, 0);
+   border: none;
+   font-size: 15px;
+   left: 0 ;
+
+}
+/* Microsoft OneDrive***/
 
 /* SOCIAL */
+.Follow{margin-left: 25px;}
 .social{ width:32px;height:32px;}
 /* SOCIAL */
 
@@ -25,5 +50,14 @@
      margin-left: -5px ;
      padding:30px ;
  }
+
+ .FOOTER__list--title{
+   font-family: 'Tajawal', sans-serif;
+   color: rgb(97, 97, 97);font-size:15px;
+   font-weight:600;}
+
+   .globe{ width:20px; height: 20px;
+    margin-left:25px;
+   }
 
 /* FOOTER */

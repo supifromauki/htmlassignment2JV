@@ -120,11 +120,22 @@ body{
          }
          /************ Microsoft OneDrive***************** */
 
-          /* FOOTER */
- .FOOTER
- {
-    width:100%;
-    background-color: grey;
- }
 
-          /* FOOTER */
+
+/* SOCIAL */
+.Follow{margin-left: 64px;}
+.social{ width:32px;height:32px;}
+/* SOCIAL */
+
+  /* FOOTER */
+ .FOOTER{
+    width:100%;
+    background-color: grey; height:326px;}
+ .FOOTER__list{
+     list-style: none;
+     margin-left: -5px ;
+     padding:30px ;}
+.globe{ width:20px; height: 20px;
+        margin-left:-5px;
+       }
+/* FOOTER */
