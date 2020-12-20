@@ -1,10 +1,8 @@
   
-
 body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
-    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
 }
+h1,h2,h3{ font-family:'Segoe UI';}
 
 .corona-alert
 {
@@ -56,8 +54,8 @@ body{
   .carousel-caption
   {
       position: absolute;
-      top: 0;
-      left: 0!important;
+      top:120px;
+      left:70px!important;
       
   }
   .carousel-caption h3{
