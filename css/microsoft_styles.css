@@ -181,8 +181,8 @@ body{
  }
 
 /* FOOTER */
-
-*********icons***************
+/* 
+*********icons*************** */
 @media only screen and (max-width: 812px){
 
     .ms-list
@@ -329,4 +329,4 @@ body{
                 max-width: 125px;
                 margin-left: 22px;
             }}
-*********icons end***********
+/* *********icons end*********** *
