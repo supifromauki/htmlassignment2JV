@@ -35,14 +35,9 @@ h1,h2,h3{ font-family:'Segoe UI';}
 {
     border: none;
 }
-
-
   /* nav bar */
-  
 
-
-/* From slider */
-
+/* Carousel */
 
 .carousel-inner img {
     width: 100%;
@@ -69,25 +64,23 @@ h1,h2,h3{ font-family:'Segoe UI';}
     text-align: left;
     color: black; 
    }
-   .carousel-caption button
-   {    
-      
+   .carousel-caption button{   
        padding: 10px 20px;
        color: white;
        background-color:rgb(168, 0, 0);
        border: none;
        position: absolute;
        font-size: 15px;
-       left: 0 ;
+       left: 0 ;  }
 
-   }
+    .carousel-indicators{ left:0; top:auto; bottom :-50px;}   
 
+    .carousel-indicators li{background:#000; border-radius:50% ; width:10px;}
+    .carousel-indicators .active{background:#fff;}
 
-
-          /* Slider ends */
+          /* Carousel */
           
-
-        /*********** Card section***************** */
+ /*********** Card section***************** */
           .sec-4
           {
               margin: 40px 0;
