@@ -1,33 +1,23 @@
-  
-
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
-    
-}
+    padding: 0; margin: 0; overflow-x: hidden;   
+    }
 
 .corona-alert
-{
-    background-color:rgb(168, 0, 0) ;
+{   background-color:rgb(168, 0, 0) ;
     color: white;
     padding: 10px 34px;
-    font-size: 14px;
-   
+    font-size: 14px;   
     text-align: center;
     display: block;
-
 }
-
-
 
 /* FROM Nav bar  */
 .bodystyle1{
     width: 90%;
-    margin: 0 auto;
-    
-    
-    
+    margin: 0 auto;    
 }
+
 .bodystyle2{
     width: 90%;
     margin: 0 auto;
@@ -45,7 +35,7 @@ body{
     margin-top: -7px;
     text-align: center;
 }
-.ms-navlink__style
+.header--fontstyle
 {
     color:rgba(0, 0, 0, 0);
     font-size: 14px;
@@ -53,16 +43,14 @@ body{
     text-align: left;
     text-decoration-line:none ;
 }
-.ms-nav__btn-border
+.header__button
 {
-
     border: none;
     padding: 0 5px;
     justify-content: space-between;
     justify-content: space-evenly;
     margin-left: 10px;
 }
-
 
   /* nav bar */
   
@@ -98,47 +86,47 @@ body{
     border-radius: 100%;
   }
 
-  .ms-slider__content--center {
+  .CAROUSEL-content1 {
     position: absolute;
     top: 47%;
     left: 25%;
     transform: translate(-50%, -50%);
 }
-.ms-slider__content--center2 {
+.CAROUSEL-content2 {
     position: absolute;
     top: 29%;
     left: 33%;
     transform: translate(-50%, -50%);
 }
 @media only screen and (max-width: 600px){
-    .ms-slider__content--center {
+    .CAROUSEL-content1 {
         position: absolute;
         top: 70%;
         left: 51%;
         transform: translate(-50%, -50%);
     }
 }
-.ms-slider__h1{
+.CAROUSEL-h1{
       font-size: 24px;
       font-weight: 600;
   }
-.ms-slider__text{
+.CAROUSEL-text{
     font-size: 15px;
       font-weight: 400;
       color: rgb(0, 0, 0);
 }
-.ms-button--color{
+.CAROUSEL__button{
     background-color:rgb(168, 0, 0);
     color: white;
  }
 
           /* Slider ends */
-          /* icons */
-          .ms-listsection{
+          /* icons */ 
+          .section3{
               margin-top: 20px;
               margin-bottom: 50px;
           }
-          .ms-list{
+          .ICONS{
             list-style-type: none;
             line-height: 20px;
             display: flex;
@@ -187,7 +175,7 @@ body{
         }
         
         @media only screen and (max-width: 600px){
-            .ms-list{
+            .ICONS{
                 list-style-type: none;
                 display: flex;
                 text-align: left;
