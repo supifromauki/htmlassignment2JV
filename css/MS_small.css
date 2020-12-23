@@ -5,7 +5,7 @@ body{
 
      .header__button
     {   
-        color:rebeccapurple;
+        
         border: none;
         padding: 0 5px;
         justify-content: space-between;
@@ -74,3 +74,21 @@ body{
    }
 
 /* FOOTER */
+
+
+
+
+
+
+
+
+
+
+
+<div
+class="text1234"
+style="justify-content: center; display: flex"
+>
+<p class="textxyz" style="width: 128px">
+  Explore Surface devices
+</p>
